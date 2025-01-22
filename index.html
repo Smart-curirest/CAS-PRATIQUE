@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>HTML5</title>
+    <!-- Metadonnees obligatoire -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Metadonnees principales du site -->
+    <meta name="author" content="Murielle">
+    <meta name="title" content="Structure de base HTML" /> 
+    <meta name="description" content="Présentation de la structure de base d'une page HTML">
+
+    <!-- Metadonnees twitter -->
+    <meta name="twitter:title" property="og:title" itemprop="name" content="Structure de base HTML">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Présentation de la structure de base d'une page HTML">
+    <meta property="twitter:image" content="./assets/img/logo.png" />
+    <meta property="twitter:site" content="HTML5" />
+
+    <!-- Metadonnees Opengraph -->
+    <meta property="og:site_name" content="HTML5" />
+    <meta property="og:title" content="HTML5" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/img/logo.png" />
+    <meta property="og:url" content="https://html5.com" />
+
+    <!-- Icone/logo du site -->
+    <link href="./assets/img/logo.png" rel="icon">
+    <link href="./assets/img/logo32.png" rel="icon" type="image/png" sizes="32x32" >
+    <link href="./assets/img/logo16.png" rel="icon" type="image/png" sizes="16x16" >
+    <link href="./assets/img/logo.png" rel="apple-touch-icon">
+
+</head>
+<body>
+    <!-- l'entete du site -->
+    <header>
+        <!-- le menu de navigation -->
+        <nav>
+            <img src="./assets/img/logo.png"  width="40" alt="logo">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#about">A Propos</a></li>
+                <li><a href="#features">Services</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+            </ul>
+            <button>Contactez-nos</button>
+        </nav>
+
+        <!-- la section principale (Hero Section) -->
+        <section>
+            <div>
+                <div>
+                    <p>sous titre</p>
+                    <h1>Bienvenue !</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi deleniti reiciendis modi 
+                        consequuntur, eos sequi facere earum, ipsa officia illum quisquam quis, explicabo vero doloremque 
+                        veritatis dolorum. Quia, debitis quibusdam?
+                    </p>
+                    <a href="#services">Commencer</a>
+                </div>
+                <img src="./assets/img/hero.jpg" width="400" alt="">
+            </div>
+        </section>
+    </header>
+
+    <!-- la partie principale du site -->
+    <main>
+        <!-- Toutes les différentes sections peuvent etre regrouper dans des <section></section> -->
+        <section id="about"></section>
+        <section id="features"></section>
+        <section id="reviews"></section>
+        <section id="faqs"></section>
+        <section id="newsletter"></section>
+    </main>
+
+    <!-- le pied de page du site -->
+    <!-- Tous les éléments du pied de page doivent etre regrouper dans des <nav></nav>-->
+    <footer>
+        <div>
+            <img src="./assets/img/logo.png" width="40" alt="logo">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores 
+                deleniti impedit sequi in expedita assumenda laboriosam odit cumque, 
+                illum voluptate eius laborum veritatis quia at eveniet vitae quam optio maxime?
+            </p>
+            <div>
+                <ul>
+                    <li><img src="./assets/img/linkedin.png" width="40" alt=""></li>
+                    <li><img src="./assets/img/instagram.png" width="40" alt=""></li>
+                    <li><img src="./assets/img/twitter.png" width="40" alt=""></li>
+                    <li><img src="./assets/img/facebook.png" width="40" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">A Propos</a></li>
+                <li><a href="#features">Services</a></li>
+                <li><a href="#faqs">Faqs</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="#about">Contat</a></li>
+                <li><a href="#features">Reviews</a></li>
+                <li><a href="#faqs">Newsletter</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
